@@ -1,0 +1,9 @@
+{
+  "name": "story-pointing",
+  "version": "0.0.1",
+  "description": "a simple web app for story pointing",
+  "dependencies": {
+    "express": "^4.13.1",
+    "socket.io": "^1.3.6"
+  }
+}
