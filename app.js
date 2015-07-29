@@ -8,7 +8,7 @@ app.set('port', (process.env.PORT || 3000));
 app.get('/', function(req, res){
   res.sendFile(__dirname + '/index.html');
 });
-app.get('/:team/member', function(req, res){
+app.get('/:team/team-member', function(req, res){
   res.sendFile(__dirname + '/vote.html');
 });
 app.get('/:team/scrum-master', function(req, res){
