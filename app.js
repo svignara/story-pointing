@@ -14,7 +14,9 @@ app.get('/:team/team-member', function(req, res){
 app.get('/:team/scrum-master', function(req, res){
   res.sendFile(__dirname + '/scrum-master.html');
 });
-
+app.get('*', function(req, res){
+  res.redirect('/');
+});
 
 
 io.on('connection', function(socket){
