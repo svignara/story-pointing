@@ -9,10 +9,10 @@ app.get('/', function(req, res){
   res.sendFile(__dirname + '/index.html');
 });
 app.get('/:team/team-member', function(req, res){
-  res.sendFile(__dirname + '/vote.html');
+  res.sendFile(__dirname + '/team-member.html');
 });
 app.get('/:team/scrum-master', function(req, res){
-  res.sendFile(__dirname + '/results.html');
+  res.sendFile(__dirname + '/scrum-master.html');
 });
 
 
